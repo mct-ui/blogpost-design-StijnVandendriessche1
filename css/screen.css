@@ -55,6 +55,8 @@ html {
     font-family: "Droid Serif", Georgia, serif;
     color: #5C6366;
     padding: 48px 24px 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -97,7 +99,7 @@ h1, h2, h3
   font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
 }
 h1 {
-    font-family: "Times New Roman", serif;
+    font-family: "Playfair Display", serif;
     font-size: 36px;
     font-weight: normal;
     line-height: 40px;
@@ -184,6 +186,11 @@ a:active {
 a:hover,
 a:focus {
     color: #1ABAFF;
+}
+
+*+h2
+{
+  margin-top: 48px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
